@@ -121,4 +121,7 @@ plover: all
 norman: OPT_DEFS += -DKEYMAP_NORMAN
 norman: all
 
-.DEFAULT_GOAL := norman
+tallrice: OPT_DEFS += -DKEYMAP_TALLRICE
+tallrice: all
+
+.DEFAULT_GOAL := tallrice
